@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cube animation</title>
+    <link rel="stylesheet" href="./scss/main.css">
+</head>
+<body id="bodyy">
+    <div class="darkmode">
+        <button class="mode" onclick="clickk()" ondblclick="dbl()" id="mo">
+
+        </button>
+    </div>
+    <div class="cube">
+        <div class="top">
+            <img src="./sneha-removebg-preview.png" height="300px" width="294"alt="">
+        </div>
+        <div>
+            <span style="--i:0;">SNEHA</span>
+            <span style="--i:1;">SNEHA</span>
+            <span style="--i:2;">SNEHA</span>
+            <span style="--i:3;">SNEHA</span>
+        </div>
+        
+    <!-- </div>
+    <div class="loader-wrapper">
+    <span class="loader"><span class="loader-inner"></span></span>
+</div> -->
+
+    <script>
+        function clickk(){
+            document.getElementById("mo").style.background = "black";
+            document.getElementById("bodyy").style.background = "white";
+
+        }
+        function dbl(){
+            document.getElementById("mo").style.background = "white";
+            document.getElementById("bodyy").style.background = "black";
+
+        }
+    </script>
+</body>
+</html>
